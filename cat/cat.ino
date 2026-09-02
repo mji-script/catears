@@ -1,13 +1,20 @@
 //cat ears
 //by leo.mandolini
 
+
 #include <ESP32Servo.h>
 
-leftear = 1;
-rightear = 0;
+//pins
+
+const int leftear = 1;
+const int rightear = 0;
+
+//servos
 
 Servo sleft;
 Servo sright;
+
+//variables
 
 void setup() {
 
